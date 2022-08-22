@@ -1,0 +1,92 @@
+/*
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background{
+  background-image: url(https://www.history.com/.image/ar_233:100%2Cc_fill%2Ccs_srgb%2Cg_faces:center%2Cq_auto:good%2Cw_1920/MTYyMzIwNDEyMjUwNzQ0MTg1/topic-feminism-gettyimages-53375119-feature.webp);
+ height: 100vh;
+ width: 100vw;
+ background-size: cover;
+ background-position: center;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+
+.login-box {
+  background-color: navy;
+  padding: 50px, 30px;
+  min-width: 400px;
+  width: 50%;
+  max-width: 600px;
+  position: absolute;
+  padding-bottom: 50px;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  font-weight: normal;
+}
+
+.login-details {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.login-details label {
+  color: #fff;
+  font-weight: lighter;
+  font-size: 1.5em;
+  margin-bottom: 7px;
+}
+
+.login-details input {
+  font-size: 1.5em;
+  padding: 0.1em 0.25em;
+  background-color: grey;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: lighter;
+}
+
+.login-details input:focus {
+  border: 1px solid lightblue;
+}
+
+.login-button {
+  padding: 10px 30px;
+  width: 100%;
+  border-radius: 5px;
+  background: darkgray;
+  border: 1px solid lightblue;
+  outline: none;
+  font-size: 1.5em;
+  color: #fff;
+  font-weight: lighter;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background-color: navy;
+}
+
+.login-button:focus {
+  background-color: lightblue;
+}
